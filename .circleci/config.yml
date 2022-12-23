@@ -16,9 +16,10 @@ jobs:
           name: Run tests
           command: python -m pytest -v --junitxml="result.xml"
   store-results:
-      steps:
-        - store_test_results:
-            path: /home/circleci/project/result.xml
+    executor: machine
+    steps:
+      - store_test_results:
+          path: /home/circleci/project/result.xml
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
