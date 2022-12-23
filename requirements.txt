@@ -1,25 +1,72 @@
-Bottleneck @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_29949159-f86f-474b-bc1f-aaa1e0e222b4ofusifik/croots/recipe/bottleneck_1657175564045/work
-certifi @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_0ek9yztvu3/croot/certifi_1665076692562/work/certifi
-contourpy @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_17gskqgptz/croots/recipe/contourpy_1663827415320/work
-cycler @ file:///tmp/build/80754af9/cycler_1637851556182/work
+blas==1.0
+bottleneck==1.3.5
+brotli==1.0.9
+brotli-bin==1.0.9
+bzip2==1.0.8
+ca-certificates==2022.10.11
+certifi==2022.9.24
+contourpy==1.0.5
+cycler==0.11.0
+fftw==3.3.9
 fonttools==4.25.0
-gmpy2 @ file:///opt/concourse/worker/volumes/live/22766409-e78a-4fb0-711e-bd031212d672/volume/gmpy2_1645455563619/work
-kiwisolver @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_ca2945cc-8f2f-407b-8e24-f05d29ee2f4fvto5sdlk/croots/recipe/kiwisolver_1653292053344/work
-matplotlib @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_35aw7vfp_z/croot/matplotlib-suite_1670466139477/work
+freetype==2.12.1
+giflib==5.2.1
+gmp==6.2.1
+gmpy2==2.1.2
+intel-openmp==2021.4.0
+jpeg==9e
+kiwisolver==1.4.2
+lcms2==2.12
+lerc==3.0
+libbrotlicommon==1.0.9
+libbrotlidec==1.0.9
+libbrotlienc==1.0.9
+libcxx==14.0.6
+libdeflate==1.8
+libffi==3.4.2
+libgfortran==5.0.0
+libgfortran5==11.3.0
+libpng==1.6.37
+libtiff==4.4.0
+libwebp==1.2.4
+libwebp-base==1.2.4
+llvm-openmp==14.0.6
+lz4-c==1.9.4
+matplotlib==3.6.2
+matplotlib-base==3.6.2
+mkl==2021.4.0
 mkl-fft==1.3.1
-mkl-random @ file:///opt/concourse/worker/volumes/live/a9eca864-069c-4240-73c8-4e51b036a10d/volume/mkl_random_1639994047876/work
+mkl-random==1.2.2
 mkl-service==2.4.0
+mkl_fft==1.3.1
+mkl_random==1.2.2
+mpc==1.1.0
+mpfr==4.0.2
 mpmath==1.2.1
 munkres==1.1.4
-numexpr @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_cef3ah6r8w/croot/numexpr_1668713880672/work
-numpy @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_cd2y6umv2d/croot/numpy_and_numpy_base_1668593733683/work
-packaging @ file:///tmp/build/80754af9/packaging_1637314298585/work
+ncurses==6.3
+numexpr==2.8.4
+numpy==1.23.4
+numpy-base==1.23.4
+openssl==1.1.1s
+packaging==21.3
 pandas==1.5.2
-Pillow==9.2.0
-pyparsing @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_3a17y2delq/croots/recipe/pyparsing_1661452538853/work
-python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
-pytz @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_1caf090c-01b6-4973-adac-d2eb884a674e7zonb9eb/croots/recipe/pytz_1654762641285/work
+pillow==9.2.0
+pip==22.3.1
+pyparsing==3.0.9
+python==3.10.8
+python-dateutil==2.8.2
+pytz==2022.1
+readline==8.2
 scipy==1.9.3
-six @ file:///tmp/build/80754af9/six_1644875935023/work
-sympy @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_6dq9olsd7l/croot/sympy_1668202399031/work
-tornado @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_1fimz6o0gc/croots/recipe/tornado_1662061695695/work
+setuptools==65.5.0
+six==1.16.0
+sqlite==3.40.0
+sympy==1.11.1
+tk==8.6.12
+tornado==6.2
+tzdata==2022g
+wheel==0.37.1
+xz==5.2.8
+zlib==1.2.13
+zstd==1.5.2
