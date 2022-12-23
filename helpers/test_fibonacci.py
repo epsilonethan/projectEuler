@@ -1,6 +1,6 @@
 import unittest
 import numpy as np
-import fibonacci as fb
+from helpers import fibonacci as fb
 
 
 class FibonacciTestCase(unittest.TestCase):
