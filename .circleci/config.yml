@@ -26,5 +26,5 @@ jobs:
 workflows:
   unit-tests:
     jobs:
-      - test
+      - unit-tests
       - store-results
