@@ -14,8 +14,9 @@ find the sum of the even-valued terms.
 
 import numpy as np
 from helpers import fibonacci as fb
+from helpers import genMath as gm
 
 if __name__ == '__main__':
     fibs = fb.all_fibs_up_to(4000000)
-    fibs = fb.find_even_fibs(fibs)
+    fibs = gm.find_evens(fibs)
     print(np.sum(fibs))
