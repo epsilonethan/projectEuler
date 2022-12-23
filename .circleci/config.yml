@@ -15,9 +15,6 @@ jobs:
       - run:
           name: Run tests
           command: python -m pytest -v --junitxml="result.xml"
-  store-results:
-    executor: python/default
-    steps:
       - store_test_results:
           path: /home/circleci/project/result.xml
 
@@ -27,4 +24,3 @@ workflows:
   unit-tests:
     jobs:
       - unit-tests
-      - store-results
